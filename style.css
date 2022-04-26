@@ -1,0 +1,142 @@
+body,head,footer {background-color:#EDFF86;}
+
+.menu1{
+    height: 25px;
+    width: 100%;
+    padding-top: 1em;
+    
+}
+.caja-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menuprincipal {
+    list-style-type:none; /* esto le saca el puntito al elemento li*/
+    margin: 0;
+    padding: 0;   
+    text-align: right;
+}
+.menuprincipal li {
+    padding: 1px;
+    margin: 2px;
+    margin-top: 5px;
+    display: inline-block;
+    border:1px solid black;
+
+}
+.menuprincipal li a {
+    text-decoration: none; /* esto le saca la decoracion al vinculo*/
+    display: block;
+    padding: 5px;
+    background-color: #ccff66;
+}
+.menuprincipal li a:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+h1,h2{ text-align: center;
+    padding-top: 20px;
+}
+.nosotros{
+    display: flex;
+}
+.fotopricipal{
+    padding: 25px;
+}
+.fotopricipal img{
+    width: 300px;
+    height: 300px;
+    
+}
+.galeriaprincipal{
+   /* display: inline-block;
+    padding-inline-start: 20px;
+    text-align: center;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+.galeriaprincipal img{
+    width: 250px;
+    height: 250px;
+    margin: 15px;    
+    
+}
+#redes-sociales{  
+    position: sticky;
+    bottom: 30px;
+}
+.redes {
+    list-style-type: none;
+    text-align: right;
+    
+}
+.redes img{
+    width: 3em;
+    height: 3em;
+}
+.redes li{
+    display: inline-block;
+    padding: 1px;
+    margin: 2px;
+    margin-top: 5px;
+}
+.redes li a{
+    text-decoration: none;
+}
+.contactos{
+    margin-top: 30px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.formulario{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green;   
+}
+.formulario input{
+    width: 90%;
+    height: 18px;
+}
+.formulario textarea{
+    width: 90%;
+    height: 65px;
+}
+.formulario button{
+    height: 25px;
+    width: 80px;
+    cursor: pointer;
+    }
+/* CSS PARA EL FOOTER*/
+footer{
+    display:flex;
+}
+.final{
+    width: 250px;
+    height: auto;
+}
+.redes-footer{
+    list-style-type: none;
+    
+}
+.redes-footer ul {
+    padding: 20px;
+    
+}
+.redes-footer li {
+    display: block;
+    margin: 5px;
+    margin-top: 5px;
+}
+.redes-footer li a {
+text-decoration: none;    
+}
+.legales p {
+    color:blue;
+}   
